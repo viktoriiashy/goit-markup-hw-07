@@ -1,0 +1,128 @@
+.footer-page {
+  padding: 60px 0;
+
+  background-color: var(--main-background-color);
+}
+
+.address {
+  margin-bottom: 9px;
+
+  color: var(--inverse-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.logo-white {
+  display: block;
+  margin-bottom: 20px;
+
+  color: var(--inverse-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.1;
+  font-family: 'Raleway';
+}
+
+.hookup {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  margin-bottom: 9px;
+
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.footer-icons {
+  max-width: 206px;
+  margin-left: 70px;
+}
+.footer-icons-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+
+  color: var(--inverse-color);
+}
+.social-link-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-page-blocks {
+  display: flex;
+}
+
+.form-footer {
+  margin-left: 90px;
+}
+
+.form-footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-footer-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.form-footer-input {
+  margin-right: 12px;
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+  color: var(--inverse-color);
+}
+
+.form-btn-footer {
+  margin: 0 auto;
+  padding: 0;
+  min-width: 200px;
+  height: 50px;
+  color: var(--inverse-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-footer-icon {
+  margin-left: 10px;
+}
